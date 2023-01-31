@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hassan Khairi's Website</title>
+    <meta charset="UTF-8"></meta>
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Hassan Khairi</h1>
+        <nav>
+            <a href="/home.html">Home</a> | <a href="/about.html">About Me</a> |
+            <a href="/projects.html">My Projects</a> |
+            <a href="/contact.html">Contact Me | <a href="/experiment.html">Experiment</a>
+          </nav>
+      </header>
+    </main>
+
+    <canvas id="myCanvas" width="400" height="70">
+      Your browser does not support the canvas tag.
+    </canvas>
+
+    <ul>
+      <li>
+        <a href="https://github.com/hassankhairi/JhonMayday.github.io"
+          ><b>Jhon Mayday Website</b></a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/hassankhairi/birds-of-a-feather-team-32"
+          ><i>Birds of a Feather</i></a
+        >
+      </li>
+      <li><strong>File Compression</strong></li>
+      <li>
+        <a href="https://github.com/hassankhairi/SHA256-Hashing"
+          ><em>SHA-256 Hashing</em></a
+        >
+      </li>
+    </ul>
+
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#CCCCCC";
+      ctx.fillRect(20, 25, 400, 50);
+      ctx.font = "20px Arial";
+      ctx.fillStyle = "black";
+      ctx.fillText("My Projects", 40, 55);
+    </script>
+  </body>
+</html>
