@@ -4,75 +4,84 @@
     <title>Hassan Khairi's Website</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
-  </head>
-    
-  <body>
     <style>
-        table, th, td {
-        border:1px solid black;
-        }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
     </style>
+  </head>
+
+  <body>
     <main>
       <header>
         <h1>Hassan Khairi</h1>
         <nav>
-            <a href="/home.html">Home</a> | <a href="/about.html">About Me</a> |
-            <a href="/projects.html">My Projects</a> |
-            <a href="/contact.html">Contact Me | <a href="/experiment.html">Experiment</a>
-          </nav>
+          <a href="/home.html">Home</a> | <a href="/about.html">About Me</a> |
+          <a href="/projects.html">My Projects</a> |
+          <a href="/contact.html">Contact Me</a> |
+          <a href="/experiment.html">Experiment</a>
+        </nav>
       </header>
     </main>
-    <hr>
+    <hr />
     <div>
-        <table>
-        <caption>Reachable at</caption>
+      <table>
+        <caption>
+          Reachable at
+        </caption>
         <colgroup>
-            <col style="background-color:rgb(255, 255, 255)">
-            <col style="background-color:rgb(255, 255, 255)">
-          </colgroup>
-        <th>Contact </th>
+          <col style="background-color: rgb(255, 255, 255)" />
+          <col style="background-color: rgb(255, 255, 255)" />
+        </colgroup>
+        <th>Contact</th>
         <tr>
-            <td>Phone</td>
-            <td>(661)-633-4568</td> 
+          <td>Phone</td>
+          <td>(661)-633-4568</td>
         </tr>
         <tr>
-            <td>Email</td>
-            <td>hassankhairi2001@gmail.com</td>
+          <td>Email</td>
+          <td>hassankhairi2001@gmail.com</td>
         </tr>
-    </table>
+      </table>
     </div>
-    
-    <hr>
+
+    <hr />
 
     <div>
-        <form>
+      <form>
         <fieldset>
-            <legend>Send Me A Message:</legend>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br><br>
+          <legend>Send Me A Message:</legend>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+          <label for="email">Email:</label><br />
+          <input type="text" id="email" name="email" /><br /><br />
 
-            <label for="find">How did you find me?</label><br>
+          <label for="find">How did you find me?</label><br />
 
-            <select id="find">
-                <option value="irl">Real Life</option>
-                <optgroup label="Internet">
-                    <option value="LI">LinkedIn</option>
-                    <option value="SM">Social Media</option>
-                </optgroup>
-                
-                <option value="else">Other</option>
-              </select>
+          <select id="find">
+            <option value="irl">Real Life</option>
+            <optgroup label="Internet">
+              <option value="LI">LinkedIn</option>
+              <option value="SM">Social Media</option>
+            </optgroup>
 
-            <br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="messagebox" rows="4" cols="50"></textarea>
-            <br><br>
-            <button>Click Me!</button>   
+            <option value="else">Other</option>
+          </select>
 
+          <br /><br />
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="messagebox"
+            rows="4"
+            cols="50"
+          ></textarea>
+          <br /><br />
+          <button>Click Me!</button>
         </fieldset>
-    </form>
+      </form>
     </div>
   </body>
 </html>
