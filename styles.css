@@ -1,3 +1,35 @@
 body {
-    background-color: rgb(231, 231, 231);
+    font-family: "Garamond", serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
+:root {
+    --bg-color: rgb(42, 42, 42);
+    --text-color: white; 
+  }
+
+  #homeTitle{
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  #homeNav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #homeNav li{
+    display: inline;
+    background-color: rgb(164, 164, 164);
+    
+  }
+
+  #homeNav a{
+    text-decoration: none;
+    color: rgb(52, 52, 250);
+    padding: 1em;
   }
