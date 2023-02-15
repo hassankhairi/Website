@@ -9,46 +9,40 @@
     <main>
       <header>
         <h1>Hassan Khairi</h1>
-        <nav>
-          <a href="/home.html">Home</a> | <a href="/about.html">About Me</a> |
-          <a href="/projects.html">My Projects</a> |
-          <a href="/contact.html">Contact Me</a> |
-          <a href="/experiment.html">Experiment</a>
+        <nav id="nav">
+
+          <ul>
+            <li> <a href="/home.html">Home</a> </li> 
+            <li> <a href="/about.html"> About Me </a> </li>
+            <li><a href="/projects.html"> My Project </a></li>
+            <li><a href="/contact.html">Contact Me </a></li>
+            <li><a href="/experiment.html">Experiment</a></li>
+          </ul>
+          
         </nav>
       </header>
     </main>
 
-    <canvas id="myCanvas" width="400" height="70">
-      Your browser does not support the canvas tag.
-    </canvas>
+    <h2 id="projtitle">My Projects</h2>
 
-    <ul>
+    <ul id="proj">
       <li>
         <a href="https://github.com/hassankhairi/JhonMayday.github.io"
-          ><b>Jhon Mayday Website</b></a
+          >Jhon Mayday Website</a
         >
       </li>
       <li>
         <a href="https://github.com/hassankhairi/birds-of-a-feather-team-32"
-          ><i>Birds of a Feather</i></a
+          >Birds of a Feather</a
         >
       </li>
-      <li><strong>File Compression</strong></li>
+      <li><u>File Compression</u></li>
       <li>
         <a href="https://github.com/hassankhairi/SHA256-Hashing"
-          ><em>SHA-256 Hashing</em></a
+          >SHA-256 Hashing</a
         >
       </li>
     </ul>
 
-    <script>
-      var canvas = document.getElementById("myCanvas");
-      var ctx = canvas.getContext("2d");
-      ctx.fillStyle = "#CCCCCC";
-      ctx.fillRect(20, 25, 400, 50);
-      ctx.font = "20px Arial";
-      ctx.fillStyle = "black";
-      ctx.fillText("My Projects", 40, 55);
-    </script>
   </body>
 </html>
