@@ -1,3 +1,8 @@
+@keyframes slide {
+  0% {left:200px}
+  100%  {left:0px;}
+}
+
 @media only screen and (min-width: 1024px) {
   
   body {
@@ -93,6 +98,9 @@
   img{
     display: block;
     width: 25vw;
+    animation-name: slide;
+    animation-duration: 2s;
+    position: relative;
   }
 
   #xp{
@@ -252,6 +260,9 @@
     margin-right: auto;
     display: block;
     width: 40vw;
+    animation-name: slide;
+    animation-duration: 2s;
+    position: relative;
   }
 
   #xp{
